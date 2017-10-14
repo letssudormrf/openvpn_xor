@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Feb 2016 13:33:39 +0100
+Source: openvpn
+Binary: openvpn
+Architecture: i386
+Version: 2.3.10-1ubuntu2
+Distribution: xenial
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Martin Pitt <martin.pitt@ubuntu.com>
+Description:
+ openvpn    - virtual private network daemon
+Launchpad-Bugs-Fixed: 1454725
+Changes:
+ openvpn (2.3.10-1ubuntu2) xenial; urgency=medium
+ .
+   * debian/openvpn@.service: Add --script-security similar to what got added
+     to debian/openvpn.init.d ages ago (see LP #260291). (LP: #1454725)
+Checksums-Sha1:
+ 4da9bc5b201e53652f1ab0b75465221cc32c1351 464762 openvpn_2.3.10-1ubuntu2_i386.deb
+Checksums-Sha256:
+ 24b00c1734a814ea6001921038542c71be693373ae8cd691423cbb7a62e83eb3 464762 openvpn_2.3.10-1ubuntu2_i386.deb
+Files:
+ 481cc77b86d20fdee3b6bca85c3a4b48 464762 net optional openvpn_2.3.10-1ubuntu2_i386.deb
+Original-Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
