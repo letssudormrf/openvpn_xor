@@ -1,0 +1,2 @@
+caa4b33ab1048f7d86c32f1b4fe29120  openvpn-2.3.12-1.el7.centos.x86_64.rpm
+943bc542a086b3a2fa93605e82690dc9  openvpn-debuginfo-2.3.12-1.el7.centos.x86_64.rpm
